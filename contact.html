@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My First Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="stylesheet" href="./assets/css/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div id="maincontainer" class="container-fluid">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <!-- Our brand / logo -->
+            <a id="myname" class="navbar-brand" href="index.html">Alex Alspaw</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible button -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+
+                    <!-- The links of our navbar -->
+                    <li class="nav-item active">
+                        <a id="navbuttons" class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a id="navbuttons" class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a id="navbuttons" class="nav-link" href="contact.html">Contact Me</a>
+                    </li>
+
+
+                    <!-- a Dropdown menu 
+                        <li class="nav-item dropdown">
+              
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                          </a>
+              
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+              
+                        </li>-->
+                </ul>
+            </div>
+        </nav>
+
+        <!--    <h1 class="navbar-brand" id="h1specific">Alex Alspaw</h1>
+        <nav class="navbar">
+
+            <a id="about" href="index.html">About Me</a>
+            <a id="portfolio" href="portfolio.html">Portfolio</a>
+            <a id="contact" href="contact.html">Contact Me</a>
+
+        </nav> -->
+
+
+        <br><br>
+        <div class="container">
+
+            <label for="name">Full Name</label>
+
+
+            <input type="text" id="name" placeholder="Your name...">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="JohnSmith@gmail.com">
+
+            <label for="message">Message</label>
+            <textarea id="subject" name="subject" placeholder="Write me.." style="height:200px"></textarea>
+
+            <p class="text">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Submit</a>
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
